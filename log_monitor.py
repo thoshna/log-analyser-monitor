@@ -6,7 +6,7 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
 # Define the path to the log file
-LOG_FILE_PATH = 'C:\\Users\\thosh\\Dropbox\\PC\\Desktop\\CI-CD Pipeline\\log_file.txt'
+LOG_FILE_PATH = 'log_file.txt'
 
 # Regular expression for log pattern to watch for: [2023-04-08 13:00:00] ERROR Something bad happened.
 LOG_PATTERN = re.compile(r'\[(.*?)\] (ERROR|WARNING|INFO) (.*)')
