@@ -1,7 +1,3 @@
-Certainly! Here's a basic template for a README file explaining the purpose and usage of the provided script:
-
----
-
 # Log Monitoring Script
 
 This Python script monitors a log file for changes and processes new log entries according to a specified pattern.
