@@ -6,7 +6,7 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
 # Define the path to the log file
-LOG_FILE_PATH = 'log_file.txt' #Here my path to the file is this we should add the correct path to the log_file
+LOG_FILE_PATH = 'template\log_file.txt' #Here my path to the file is this we should add the correct path to the log_file
 
 # Regular expression for log pattern to watch for: [2023-04-08 13:00:00] ERROR Something bad happened.
 LOG_PATTERN = re.compile(r'\[(.*?)\] (ERROR|WARNING|INFO) (.*)')
